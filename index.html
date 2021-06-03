@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Parcial 2</title>
+    <link rel="stylesheet" href="css/index.css">
+
+    </head>
+
+    <body>
+
+      <div id="titleContainer">
+  
+      <h2 id = "title">Cine Colombia</h2>
+
+      <p><h3 id=subtitle>Escoje tu película favorita</h3></p>
+
+    </div>
+
+      <div id="moviesContainer">
+  
+      </div>
+
+    </body>
+
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyDPPniL0yLk5oSk8NMuVzEEHjvGwJ3hoFA",
+    authDomain: "parcial-2-c15c1.firebaseapp.com",
+    projectId: "parcial-2-c15c1",
+    storageBucket: "parcial-2-c15c1.appspot.com",
+    messagingSenderId: "808022964975",
+    appId: "1:808022964975:web:597096be0ff917c09cb91a",
+    measurementId: "G-4BQY3S2LC8"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="js/index.js"></script>
+<script src="components/movie.js"></script>

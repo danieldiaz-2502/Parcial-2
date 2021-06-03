@@ -1,0 +1,40 @@
+#moviesContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(0, 64, 155);
+}
+
+#titleContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(106, 168, 255);
+    text-emphasis-color: rgb(8, 255, 41);
+}
+
+.oneStarBtn{
+    background-color: rgb(255, 70, 70);
+}
+.twoStarBtn{
+    background-color: rgb(255, 144, 70);
+}
+.threeStarBtn{
+    background-color: rgb(255, 212, 70);
+}
+.fourStarBtn{
+    background-color: rgb(227, 255, 70);
+}
+.fiveStarBtn{
+    background-color: rgb(70, 255, 70);
+}
+.contactoCont{
+
+    background-color: rgb(255, 255, 255);
+}
